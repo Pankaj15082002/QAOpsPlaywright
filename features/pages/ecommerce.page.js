@@ -68,7 +68,7 @@ class EcommercePage {
   }
 
   async expectOrderConfirmation() {
-    await expect(this.page.getByText('Congratulations! Your order')).toBeVisible();
+    await expect(this.page.getByText('Congratulations! Your order has been successfully placed!')).toBeVisible();
   }
 
   async continueShopping() {
